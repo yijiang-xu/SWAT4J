@@ -1,0 +1,298 @@
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] Unrecognised tag: 'mirror' (position: START_TAG seen ...</mirrors>\n<mirror>... @160:9)  @ /usr/share/maven/conf/settings.xml, line 160, column 9
+[WARNING] 
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building AsmWithJdk8 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ AsmWithJdk8 ---
+[INFO] org.example:AsmWithJdk8:jar:1.0-SNAPSHOT
+[INFO] +- org.ow2.asm:asm:jar:8.0:compile
+[INFO] +- org.ow2.asm:asm:jar:javadoc:8.0:compile
+[INFO] +- com.github.javaparser:javaparser-core:jar:3.24.0:compile
+[INFO] +- com.github.javaparser:javaparser-symbol-solver-core:jar:3.16.1:compile
+[INFO] |  +- org.javassist:javassist:jar:3.27.0-GA:compile
+[INFO] |  \- com.google.guava:guava:jar:29.0-jre:compile
+[INFO] |     +- com.google.guava:failureaccess:jar:1.0.1:compile
+[INFO] |     +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |     +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |     +- org.checkerframework:checker-qual:jar:2.11.1:compile
+[INFO] |     +- com.google.errorprone:error_prone_annotations:jar:2.3.4:compile
+[INFO] |     \- com.google.j2objc:j2objc-annotations:jar:1.3:compile
+[INFO] +- org.apache.tomcat.maven:tomcat7-maven-plugin:jar:2.2:compile
+[INFO] |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat:tomcat-util:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat:tomcat-coyote:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat:tomcat-api:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat:tomcat-jdbc:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat:tomcat-dbcp:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat:tomcat-servlet-api:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat:tomcat-jsp-api:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat:tomcat-jasper:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat:tomcat-jasper-el:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat:tomcat-el-api:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat:tomcat-catalina:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat:tomcat-tribes:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat:tomcat-catalina-ha:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat:tomcat-annotations-api:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat:tomcat-juli:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat.embed:tomcat-embed-logging-juli:jar:7.0.47:compile
+[INFO] |  +- org.apache.tomcat.embed:tomcat-embed-logging-log4j:jar:7.0.47:compile
+[INFO] |  +- org.eclipse.jdt.core.compiler:ecj:jar:4.2.2:compile
+[INFO] |  +- org.apache.tomcat.maven:common-tomcat-maven-plugin:jar:2.2:compile
+[INFO] |  |  +- org.apache.maven:maven-project:jar:2.2.1:compile
+[INFO] |  |  |  +- org.apache.maven:maven-profile:jar:2.2.1:compile
+[INFO] |  |  |  +- org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[INFO] |  |  |  |  \- backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[INFO] |  |  |  \- org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.3.1:compile
+[INFO] |  |  |  \- org.apache.httpcomponents:httpcore:jar:4.3:compile
+[INFO] |  |  +- org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[INFO] |  |  \- commons-codec:commons-codec:jar:1.6:compile
+[INFO] |  +- org.apache.tomcat.maven:tomcat7-war-runner:jar:2.2:compile
+[INFO] |  |  \- commons-cli:commons-cli:jar:1.2:compile
+[INFO] |  +- org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[INFO] |  +- org.apache.maven:maven-archiver:jar:2.4.2:compile
+[INFO] |  |  +- org.apache.maven:maven-artifact:jar:2.0.6:compile
+[INFO] |  |  +- org.apache.maven:maven-model:jar:2.0.6:compile
+[INFO] |  |  \- org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[INFO] |  +- org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[INFO] |  +- commons-io:commons-io:jar:2.2:compile
+[INFO] |  +- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  +- org.apache.commons:commons-compress:jar:1.4.1:compile
+[INFO] |  |  \- org.tukaani:xz:jar:1.0:compile
+[INFO] |  +- org.codehaus.plexus:plexus-archiver:jar:2.1.1:compile
+[INFO] |  |  +- org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[INFO] |  |  |  +- junit:junit:jar:3.8.1:compile
+[INFO] |  |  |  \- classworlds:classworlds:jar:1.1-alpha-2:compile
+[INFO] |  |  \- org.codehaus.plexus:plexus-io:jar:2.0.3:compile
+[INFO] |  +- org.codehaus.plexus:plexus-utils:jar:3.0.15:compile
+[INFO] |  +- org.apache.maven.shared:maven-filtering:jar:1.0:compile
+[INFO] |  |  +- org.apache.maven:maven-core:jar:2.0.6:compile
+[INFO] |  |  |  +- org.apache.maven.wagon:wagon-file:jar:1.0-beta-2:runtime
+[INFO] |  |  |  +- org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[INFO] |  |  |  +- org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-2:runtime
+[INFO] |  |  |  |  +- org.apache.maven.wagon:wagon-http-shared:jar:1.0-beta-2:runtime
+[INFO] |  |  |  |  |  \- jtidy:jtidy:jar:4aug2000r7-dev:runtime
+[INFO] |  |  |  |  \- xml-apis:xml-apis:jar:1.0.b2:runtime
+[INFO] |  |  |  +- org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[INFO] |  |  |  |  \- org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[INFO] |  |  |  +- org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2:compile
+[INFO] |  |  |  +- org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[INFO] |  |  |  +- org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[INFO] |  |  |  +- org.apache.maven.wagon:wagon-ssh-external:jar:1.0-beta-2:runtime
+[INFO] |  |  |  |  \- org.apache.maven.wagon:wagon-ssh-common:jar:1.0-beta-2:runtime
+[INFO] |  |  |  +- org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[INFO] |  |  |  +- org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[INFO] |  |  |  \- org.apache.maven.wagon:wagon-ssh:jar:1.0-beta-2:runtime
+[INFO] |  |  |     \- com.jcraft:jsch:jar:0.1.27:runtime
+[INFO] |  |  +- org.apache.maven:maven-monitor:jar:2.0.6:compile
+[INFO] |  |  +- org.apache.maven:maven-settings:jar:2.0.6:compile
+[INFO] |  |  \- org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[INFO] |  \- org.slf4j:jcl-over-slf4j:jar:1.7.5:compile
+[INFO] |     \- org.slf4j:slf4j-api:jar:1.7.5:compile
+[INFO] +- org.elasticsearch:elasticsearch:jar:7.5.2:compile
+[INFO] |  +- org.elasticsearch:elasticsearch-core:jar:7.5.2:compile
+[INFO] |  +- org.elasticsearch:elasticsearch-secure-sm:jar:7.5.2:compile
+[INFO] |  +- org.elasticsearch:elasticsearch-x-content:jar:7.5.2:compile
+[INFO] |  |  +- org.yaml:snakeyaml:jar:1.17:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.8.11:compile
+[INFO] |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.8.11:compile
+[INFO] |  |  +- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.8.11:compile
+[INFO] |  |  \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.11:compile
+[INFO] |  +- org.elasticsearch:elasticsearch-geo:jar:7.5.2:compile
+[INFO] |  +- org.apache.lucene:lucene-core:jar:8.3.0:compile
+[INFO] |  +- org.apache.lucene:lucene-analyzers-common:jar:8.3.0:compile
+[INFO] |  +- org.apache.lucene:lucene-backward-codecs:jar:8.3.0:compile
+[INFO] |  +- org.apache.lucene:lucene-grouping:jar:8.3.0:compile
+[INFO] |  +- org.apache.lucene:lucene-highlighter:jar:8.3.0:compile
+[INFO] |  +- org.apache.lucene:lucene-join:jar:8.3.0:compile
+[INFO] |  +- org.apache.lucene:lucene-memory:jar:8.3.0:compile
+[INFO] |  +- org.apache.lucene:lucene-misc:jar:8.3.0:compile
+[INFO] |  +- org.apache.lucene:lucene-queries:jar:8.3.0:compile
+[INFO] |  +- org.apache.lucene:lucene-queryparser:jar:8.3.0:compile
+[INFO] |  +- org.apache.lucene:lucene-sandbox:jar:8.3.0:compile
+[INFO] |  +- org.apache.lucene:lucene-spatial:jar:8.3.0:compile
+[INFO] |  +- org.apache.lucene:lucene-spatial-extras:jar:8.3.0:compile
+[INFO] |  +- org.apache.lucene:lucene-spatial3d:jar:8.3.0:compile
+[INFO] |  +- org.apache.lucene:lucene-suggest:jar:8.3.0:compile
+[INFO] |  +- org.elasticsearch:elasticsearch-cli:jar:7.5.2:compile
+[INFO] |  |  \- net.sf.jopt-simple:jopt-simple:jar:5.0.2:compile
+[INFO] |  +- com.carrotsearch:hppc:jar:0.8.1:compile
+[INFO] |  +- joda-time:joda-time:jar:2.10.3:compile
+[INFO] |  +- com.tdunning:t-digest:jar:3.2:compile
+[INFO] |  +- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+[INFO] |  +- org.apache.logging.log4j:log4j-api:jar:2.11.1:compile
+[INFO] |  \- org.elasticsearch:jna:jar:4.5.1:compile
+[INFO] \- org.neo4j:neo4j:jar:4.4.20:compile
+[INFO]    +- org.neo4j:annotations:jar:4.4.20:compile
+[INFO]    |  +- org.eclipse.collections:eclipse-collections:jar:10.4.0:compile
+[INFO]    |  |  \- org.eclipse.collections:eclipse-collections-api:jar:10.4.0:compile
+[INFO]    |  \- org.apache.commons:commons-lang3:jar:3.12.0:compile
+[INFO]    +- org.neo4j:neo4j-kernel:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-native:jar:4.4.20:compile
+[INFO]    |  |  \- net.java.dev.jna:jna:jar:5.9.0:compile
+[INFO]    |  +- org.neo4j:neo4j-graphdb-api:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-storage-engine-api:jar:4.4.20:compile
+[INFO]    |  |  +- org.neo4j:neo4j-lock:jar:4.4.20:compile
+[INFO]    |  |  +- org.neo4j:neo4j-diagnostics:jar:4.4.20:compile
+[INFO]    |  |  +- org.neo4j:neo4j-token-api:jar:4.4.20:compile
+[INFO]    |  |  +- org.neo4j:neo4j-schema:jar:4.4.20:compile
+[INFO]    |  |  \- org.neo4j:neo4j-monitoring:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-kernel-api:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-common:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-values:jar:4.4.20:compile
+[INFO]    |  |  +- org.neo4j:neo4j-unsafe:jar:4.4.20:compile
+[INFO]    |  |  \- com.github.jbellis:jamm:jar:0.3.3:compile
+[INFO]    |  +- org.neo4j:neo4j-collections:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-io:jar:4.4.20:compile
+[INFO]    |  |  \- org.neo4j:neo4j-concurrent:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-logging:jar:4.4.20:compile
+[INFO]    |  |  +- org.codehaus.jettison:jettison:jar:1.5.4:compile
+[INFO]    |  |  \- org.apache.logging.log4j:log4j-core:jar:2.17.1:compile
+[INFO]    |  +- org.neo4j:neo4j-configuration:jar:4.4.20:compile
+[INFO]    |  |  \- com.github.seancfoley:ipaddress:jar:5.3.3:compile
+[INFO]    |  +- org.neo4j:neo4j-layout:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-index:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-spatial-index:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-id-generator:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-wal:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-import-util:jar:4.4.20:compile
+[INFO]    |  |  \- org.neo4j:neo4j-csv:jar:4.4.20:compile
+[INFO]    |  \- org.jctools:jctools-core:jar:3.3.0:compile
+[INFO]    +- org.neo4j:neo4j-fabric:jar:4.4.20:compile
+[INFO]    |  +- io.projectreactor:reactor-core:jar:3.4.15:compile
+[INFO]    |  |  \- org.reactivestreams:reactive-streams:jar:1.0.3:compile
+[INFO]    |  +- org.neo4j:neo4j-front-end:jar:4.4.20:compile
+[INFO]    |  |  +- org.neo4j:neo4j-expressions:jar:4.4.20:compile
+[INFO]    |  |  +- org.neo4j:neo4j-parser:jar:4.4.20:compile
+[INFO]    |  |  \- org.neo4j:neo4j-cypher-macros:jar:4.4.20:compile
+[INFO]    |  \- org.scala-lang:scala-reflect:jar:2.12.13:compile
+[INFO]    +- org.neo4j:neo4j-procedure:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-procedure-api:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-codegen:jar:4.4.20:compile
+[INFO]    |  |  +- org.ow2.asm:asm-util:jar:9.2:compile
+[INFO]    |  |  +- org.ow2.asm:asm-analysis:jar:9.2:compile
+[INFO]    |  |  \- org.ow2.asm:asm-tree:jar:9.2:compile
+[INFO]    |  \- org.neo4j:neo4j-cypher-expression-evaluator:jar:4.4.20:compile
+[INFO]    |     \- org.neo4j:neo4j-ast:jar:4.4.20:compile
+[INFO]    +- org.neo4j:neo4j-lucene-index:jar:4.4.20:compile
+[INFO]    |  \- org.neo4j:neo4j-resource:jar:4.4.20:compile
+[INFO]    +- org.neo4j:neo4j-fulltext-index:jar:4.4.20:compile
+[INFO]    +- org.neo4j:neo4j-graph-algo:jar:4.4.20:compile
+[INFO]    |  \- org.neo4j:neo4j-cypher-runtime-util:jar:4.4.20:compile
+[INFO]    |     \- org.neo4j:neo4j-cypher-logical-plans:jar:4.4.20:compile
+[INFO]    +- org.neo4j:neo4j-data-collector:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-cypher-planner:jar:4.4.20:compile
+[INFO]    |  |  +- org.neo4j:neo4j-cypher-ir:jar:4.4.20:compile
+[INFO]    |  |  +- org.neo4j:neo4j-cypher-javacc-parser:jar:4.4.20:compile
+[INFO]    |  |  |  \- org.neo4j:cypher-ast-factory:jar:4.4.20:compile
+[INFO]    |  |  +- org.neo4j:neo4j-cypher-ast-factory:jar:4.4.20:compile
+[INFO]    |  |  \- com.github.ben-manes.caffeine:caffeine:jar:3.0.3:compile
+[INFO]    |  \- org.neo4j:neo4j-rewriting:jar:4.4.20:compile
+[INFO]    +- org.neo4j:neo4j-cypher:jar:4.4.20:compile
+[INFO]    |  +- org.scala-lang:scala-library:jar:2.12.13:compile
+[INFO]    |  +- org.neo4j:neo4j-exceptions:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-util:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-cypher-config:jar:4.4.20:compile
+[INFO]    |  |  \- com.propensive:magnolia_2.12:jar:0.17.0:compile
+[INFO]    |  |     \- com.propensive:mercator_2.12:jar:0.2.1:compile
+[INFO]    |  +- org.neo4j:neo4j-cypher-planner-spi:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-cypher-interpreted-runtime:jar:4.4.20:compile
+[INFO]    |  +- org.parboiled:parboiled-scala_2.12:jar:1.2.0:compile
+[INFO]    |  |  \- org.parboiled:parboiled-core:jar:1.2.0:compile
+[INFO]    |  \- org.apache.shiro:shiro-core:jar:1.11.0:compile
+[INFO]    |     +- org.apache.shiro:shiro-lang:jar:1.11.0:compile
+[INFO]    |     +- org.apache.shiro:shiro-cache:jar:1.11.0:compile
+[INFO]    |     +- org.apache.shiro:shiro-crypto-hash:jar:1.11.0:compile
+[INFO]    |     |  \- org.apache.shiro:shiro-crypto-core:jar:1.11.0:compile
+[INFO]    |     +- org.apache.shiro:shiro-crypto-cipher:jar:1.11.0:compile
+[INFO]    |     +- org.apache.shiro:shiro-config-core:jar:1.11.0:compile
+[INFO]    |     +- org.apache.shiro:shiro-config-ogdl:jar:1.11.0:compile
+[INFO]    |     |  \- commons-beanutils:commons-beanutils:jar:1.9.4:compile
+[INFO]    |     |     \- commons-collections:commons-collections:jar:3.2.2:compile
+[INFO]    |     \- org.apache.shiro:shiro-event:jar:1.11.0:compile
+[INFO]    +- org.neo4j:neo4j-security:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-command-line:jar:4.4.20:compile
+[INFO]    |  |  \- info.picocli:picocli:jar:4.6.1:compile
+[INFO]    |  \- org.slf4j:slf4j-nop:jar:1.7.30:compile
+[INFO]    +- org.neo4j:neo4j-bolt:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:neo4j-ssl:jar:4.4.20:compile
+[INFO]    |  +- org.neo4j:server-api:jar:4.4.20:compile
+[INFO]    |  |  \- javax.ws.rs:javax.ws.rs-api:jar:2.1.1:compile
+[INFO]    |  +- io.netty:netty-codec-http:jar:4.1.86.Final:compile
+[INFO]    |  |  +- io.netty:netty-common:jar:4.1.86.Final:compile
+[INFO]    |  |  +- io.netty:netty-buffer:jar:4.1.86.Final:compile
+[INFO]    |  |  +- io.netty:netty-transport:jar:4.1.86.Final:compile
+[INFO]    |  |  \- io.netty:netty-codec:jar:4.1.86.Final:compile
+[INFO]    |  +- io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.86.Final:compile
+[INFO]    |  |  +- io.netty:netty-transport-native-unix-common:jar:4.1.86.Final:compile
+[INFO]    |  |  \- io.netty:netty-transport-classes-epoll:jar:4.1.86.Final:compile
+[INFO]    |  +- io.netty:netty-transport-native-epoll:jar:linux-aarch_64:4.1.86.Final:compile
+[INFO]    |  \- org.bouncycastle:bcpkix-jdk15on:jar:1.69:compile
+[INFO]    |     \- org.bouncycastle:bcutil-jdk15on:jar:1.69:compile
+[INFO]    +- org.neo4j:neo4j-consistency-check:jar:4.4.20:compile
+[INFO]    +- org.neo4j:neo4j-record-storage-engine:jar:4.4.20:compile
+[INFO]    |  \- org.neo4j:neo4j-storage-engine-util:jar:4.4.20:compile
+[INFO]    +- org.neo4j:neo4j-dbms:jar:4.4.20:compile
+[INFO]    |  +- org.jprocesses:jProcesses:jar:1.6.5:compile
+[INFO]    |  |  \- com.profesorfalken:WMI4Java:jar:1.6.3:compile
+[INFO]    |  |     \- com.profesorfalken:jPowerShell:jar:3.0:compile
+[INFO]    |  +- org.apache.commons:commons-text:jar:1.10.0:compile
+[INFO]    |  \- org.neo4j.licensing-proxy:zstd-proxy:jar:4.4.20:compile
+[INFO]    |     \- com.github.luben:zstd-jni:jar:1.5.0-4:compile
+[INFO]    +- org.neo4j:neo4j-import-tool:jar:4.4.20:compile
+[INFO]    +- org.neo4j:neo4j-batch-insert:jar:4.4.20:compile
+[INFO]    +- org.neo4j.app:neo4j-server:jar:4.4.20:compile
+[INFO]    |  +- org.eclipse.jetty:jetty-server:jar:9.4.48.v20220622:compile
+[INFO]    |  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO]    |  |  +- org.eclipse.jetty:jetty-http:jar:9.4.48.v20220622:compile
+[INFO]    |  |  |  \- org.eclipse.jetty:jetty-util:jar:9.4.48.v20220622:compile
+[INFO]    |  |  \- org.eclipse.jetty:jetty-io:jar:9.4.48.v20220622:compile
+[INFO]    |  +- org.eclipse.jetty:jetty-webapp:jar:9.4.48.v20220622:compile
+[INFO]    |  |  +- org.eclipse.jetty:jetty-xml:jar:9.4.48.v20220622:compile
+[INFO]    |  |  \- org.eclipse.jetty:jetty-servlet:jar:9.4.48.v20220622:compile
+[INFO]    |  |     +- org.eclipse.jetty:jetty-security:jar:9.4.48.v20220622:compile
+[INFO]    |  |     \- org.eclipse.jetty:jetty-util-ajax:jar:9.4.48.v20220622:compile
+[INFO]    |  +- org.glassfish.jersey.core:jersey-server:jar:2.34:compile
+[INFO]    |  |  +- org.glassfish.jersey.core:jersey-common:jar:2.34:compile
+[INFO]    |  |  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.3:compile
+[INFO]    |  |  +- org.glassfish.jersey.core:jersey-client:jar:2.34:compile
+[INFO]    |  |  +- jakarta.ws.rs:jakarta.ws.rs-api:jar:2.1.6:compile
+[INFO]    |  |  +- jakarta.annotation:jakarta.annotation-api:jar:1.3.5:compile
+[INFO]    |  |  +- org.glassfish.hk2.external:jakarta.inject:jar:2.6.1:compile
+[INFO]    |  |  \- jakarta.validation:jakarta.validation-api:jar:2.0.2:compile
+[INFO]    |  +- org.glassfish.jersey.inject:jersey-hk2:jar:2.34:compile
+[INFO]    |  |  \- org.glassfish.hk2:hk2-locator:jar:2.6.1:compile
+[INFO]    |  |     +- org.glassfish.hk2:hk2-api:jar:2.6.1:compile
+[INFO]    |  |     \- org.glassfish.hk2:hk2-utils:jar:2.6.1:compile
+[INFO]    |  +- org.glassfish.jersey.containers:jersey-container-servlet:jar:2.34:compile
+[INFO]    |  |  \- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.34:compile
+[INFO]    |  +- commons-logging:commons-logging:jar:1.2:compile
+[INFO]    |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.13.4:compile
+[INFO]    |  |  +- com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.13.4:compile
+[INFO]    |  |  \- com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.13.4:compile
+[INFO]    |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.13.4.2:compile
+[INFO]    |  |  \- com.fasterxml.jackson.core:jackson-annotations:jar:2.13.4:compile
+[INFO]    |  +- org.bouncycastle:bcprov-jdk15on:jar:1.69:compile
+[INFO]    |  +- org.glassfish.jaxb:jaxb-runtime:jar:2.3.2:compile
+[INFO]    |  |  +- org.glassfish.jaxb:txw2:jar:2.3.2:compile
+[INFO]    |  |  +- com.sun.istack:istack-commons-runtime:jar:3.0.8:compile
+[INFO]    |  |  +- org.jvnet.staxex:stax-ex:jar:1.8.1:compile
+[INFO]    |  |  +- com.sun.xml.fastinfoset:FastInfoset:jar:1.2.16:compile
+[INFO]    |  |  \- jakarta.activation:jakarta.activation-api:jar:1.2.1:compile
+[INFO]    |  \- javax.xml.bind:jaxb-api:jar:2.3.0:compile
+[INFO]    +- org.neo4j:neo4j-buffers:jar:4.4.20:compile
+[INFO]    |  \- io.netty:netty-handler:jar:4.1.86.Final:compile
+[INFO]    |     \- io.netty:netty-resolver:jar:4.1.86.Final:compile
+[INFO]    \- org.neo4j:neo4j-capabilities:jar:4.4.20:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.695 s
+[INFO] Finished at: 2023-05-17T20:17:37+08:00
+[INFO] Final Memory: 31M/355M
+[INFO] ------------------------------------------------------------------------
