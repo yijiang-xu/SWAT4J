@@ -14,33 +14,38 @@ import java.util.Set;
 
 
 public class NewByteCodeTracer {
-    public static String nativeFile = "/home/mrx/Desktop/native_methods/orientdb.txt";
+    public static String nativeFile = "/home/mrx/Desktop/native_methods/tomcat.txt";
     public static String pathPrefix = "/home/mrx/.m2/repository/";
 
-//    public static String groupId= "org.apache.tomcat.maven";
-//    public static String artifactId= "tomcat7-maven-plugin";
-    public static String groupId = "org.elasticsearch";
-    public static String artifactId = "elasticsearch";
-//    public static String groupId = "org.apache.zookeeper";
-//    public static String artifactId = "zookeeper";
-//    public static String groupId = "org.apache.cassandra";
-//    public static String artifactId = "cassandra-all";
-//    public static String groupId = "org.apache.groovy";
-//    public static String artifactId = "groovy";
-//    public static String groupId = "org.apache.storm";
-//    public static String artifactId = "storm-core";
-//    public static String groupId = "org.apache.solr";
-//    public static String artifactId = "solr-core";
-//    public static String groupId = "com.orientechnologies";
-//    public static String artifactId = "orientdb-core";
-//    public static String groupId = "org.neo4j";
-//    public static String artifactId = "neo4j";
+    public static String groupId= "org.apache.tomcat.maven";
+    public static String artifactId= "tomcat7-maven-plugin";
+
 //    public static String groupId = "org.eclipse.jetty";
 //    public static String artifactId = "jetty-server";
+
+//    public static String groupId = "com.orientechnologies";
+//    public static String artifactId = "orientdb-core";
+
+//    public static String groupId = "org.apache.cassandra";
+//    public static String artifactId = "cassandra-all";
+
+//    public static String groupId = "org.elasticsearch";
+//    public static String artifactId = "elasticsearch";
+
+//    public static String groupId = "org.apache.solr";
+//    public static String artifactId = "solr-core";
+
+//    public static String groupId = "org.apache.zookeeper";
+//    public static String artifactId = "zookeeper";
+
+//    public static String groupId = "org.apache.storm";
+//    public static String artifactId = "storm-core";
+
+//    public static String groupId = "org.apache.groovy";
+//    public static String artifactId = "groovy";
+
 //    public static String groupId = "org.jruby";
 //    public static String artifactId = "jruby-complete";
-
-
 
     public static void main(String[] args) throws IOException {
 

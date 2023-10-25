@@ -35,56 +35,62 @@
             <artifactId>javaparser-symbol-solver-core</artifactId>
             <version>3.16.1</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.apache.tomcat.maven</groupId>-->
-<!--            <artifactId>tomcat7-maven-plugin</artifactId>-->
-<!--            <version>2.2</version>-->
-<!--        </dependency>-->
+
+<!--        Code of Images-->
         <dependency>
-            <groupId>org.elasticsearch</groupId>
-            <artifactId>elasticsearch</artifactId>
-            <version>7.5.2</version>
+            <groupId>org.apache.tomcat.maven</groupId>
+            <artifactId>tomcat7-maven-plugin</artifactId>
+            <version>2.2</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.neo4j</groupId>-->
-<!--            <artifactId>neo4j</artifactId>-->
-<!--            <version>4.4.20</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.apache.zookeeper</groupId>-->
-<!--            <artifactId>zookeeper</artifactId>-->
-<!--            <version>3.4.14</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.apache.cassandra</groupId>-->
-<!--            <artifactId>cassandra-all</artifactId>-->
-<!--            <version>3.0.29</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.apache.groovy</groupId>-->
-<!--            <artifactId>groovy</artifactId>-->
-<!--            <version>4.0.0</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.apache.storm</groupId>-->
-<!--            <artifactId>storm-core</artifactId>-->
-<!--            <version>2.4.0</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.apache.solr</groupId>-->
-<!--            <artifactId>solr-core</artifactId>-->
-<!--            <version>8.7.0</version>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>com.orientechnologies</groupId>-->
-<!--            <artifactId>orientdb-core</artifactId>-->
-<!--            <version>3.2.19</version>-->
-<!--        </dependency>-->
+
 <!--        <dependency>-->
 <!--            <groupId>org.eclipse.jetty</groupId>-->
 <!--            <artifactId>jetty-server</artifactId>-->
 <!--            <version>9.4.51.v20230217</version>-->
 <!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>com.orientechnologies</groupId>-->
+<!--            <artifactId>orientdb-core</artifactId>-->
+<!--            <version>3.2.19</version>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>org.apache.cassandra</groupId>-->
+<!--            <artifactId>cassandra-all</artifactId>-->
+<!--            <version>3.0.29</version>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>org.elasticsearch</groupId>-->
+<!--            <artifactId>elasticsearch</artifactId>-->
+<!--            <version>7.5.2</version>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>org.apache.solr</groupId>-->
+<!--            <artifactId>solr-core</artifactId>-->
+<!--            <version>8.7.0</version>-->
+<!--        </dependency>-->
+<!--        -->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.zookeeper</groupId>-->
+<!--            <artifactId>zookeeper</artifactId>-->
+<!--            <version>3.4.14</version>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>org.apache.storm</groupId>-->
+<!--            <artifactId>storm-core</artifactId>-->
+<!--            <version>2.4.0</version>-->
+<!--        </dependency>-->
+<!--        -->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.groovy</groupId>-->
+<!--            <artifactId>groovy</artifactId>-->
+<!--            <version>4.0.0</version>-->
+<!--        </dependency>-->
+
 <!--        <dependency>-->
 <!--            <groupId>org.jruby</groupId>-->
 <!--            <artifactId>jruby-complete</artifactId>-->
