@@ -80,7 +80,7 @@ public class NewByteCodeTracer {
 //        System.out.println(classPathResult);
 //        System.out.println(classPathResult.size());
         System.out.println("There are " + classPathResult.size() + " classes over all\n");
-        System.out.println("Now we start to analyze called native methods");
+        System.out.println("Now we start to analyze called native methods!");
         Util.println();
         NewByteCodeTracer bct = new NewByteCodeTracer();
         bct.trace(classPathResult);
