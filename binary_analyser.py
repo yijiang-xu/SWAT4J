@@ -4,6 +4,7 @@ import subprocess
 import os
 import time
 
+native_methods = "/home/mrx/Desktop/native_methods/tomcat.txt"
 tmp_file_name = "new_tmp"
 
 
@@ -496,7 +497,7 @@ if __name__ == '__main__':
     native_map.update(build_org_map)
 
     native_methods = []
-    with open('/home/mrx/Desktop/native_methods/cassandra.txt', 'r') as f:
+    with open(native_methods, 'r') as f:
         lines = f.readlines()
     for m in lines:
         m = m.strip('\n')
