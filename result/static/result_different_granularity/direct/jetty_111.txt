@@ -1,0 +1,8 @@
+"close"
+"fstat"
+"lstat"
+"open"
+"read"
+"readlink"
+"stat"
+"write"
