@@ -40,10 +40,13 @@ If you want to analyse other projects, you need to modify "native_methods" and f
   /result/static/result_final/
 
   ### Results of dynamic analysis:
-  /result/dynamic/result_final/
+  /result/dynamic/
 
   ### Combining and redundantly eliminating the results of static and dynamic analysis:
   /result/combine/
+  
+  ### Restricted system calls may cause CVEs:
+  /result/combine/CVE/
 
   
          
