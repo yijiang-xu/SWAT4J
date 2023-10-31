@@ -45,7 +45,7 @@ If you want to analyse other projects, you need to modify "native_methods" and f
   ### Combining and redundantly eliminating the results of static and dynamic analysis:
   /result/combine/
   
-  ### Restricted system calls may cause CVEs:
+  ### CVEs Mitigated by SWAT4J:
   /result/combine/CVE/
 
   
